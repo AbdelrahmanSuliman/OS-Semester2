@@ -186,6 +186,18 @@ void process_input(FILE* input_source) {
                     continue;
                 }
             }
+            else if(strcmp(words[0], "help") == 0){
+                printf(" All commands: \n");
+                printf("ls [path] -List files in current directory \n");
+                printf("cd [path] -Change current directory \n");
+                printf("set VAR VALUE -Set environment variable \n");
+                printf("environ -Display all environment variables \n");
+                printf("echo [text] -Print text to console \n");
+                printf("pause  -Pause execution until enter is pressed\n");
+                printf("exit -Exits the shell \n");
+                printf("help -Display this help manual \n");
+
+            }
             else {
                 pid_t pid = fork();
                 if(pid < 0) {
