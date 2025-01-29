@@ -196,6 +196,10 @@ void process_input(FILE* input_source) {
                 printf("pause  -Pause execution until enter is pressed\n");
                 printf("exit -Exits the shell \n");
                 printf("help -Display this help manual \n");
+                printf("myshell batchfile -Execute commands from a batchfile and exits when done \n");
+                printf("command < input -Reads from file and executes commands in it\n");
+                printf("command > input -Redirects stdout to a file but overwrites file contents \n");
+                printf("command >> input -Redirects stdout to a file but appends to file contents\n");
 
             }
             else {
