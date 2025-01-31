@@ -31,7 +31,7 @@ void* count_words(void* arg) {
     char word[MAX_WORD_LEN];
     int pos = 0;
 
-    for (long i = data->start; i < data->end; i++) {
+    for (int i = data->start; i < data->end; i++) {
         char c = data->text[i];
 
         if (isalpha(c)) {
