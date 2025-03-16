@@ -29,6 +29,11 @@ frames, so if a page was not referenced for a while it will be replaced
 [Code for task 3](task3/main.c)
 
 ---
+# Task 5
+ - My program first takes the command line arguments (file path and bin size) and recursively goes down the file path, checking first if it’s a file which it then accesses its metadata and adds the size to an array or if it’s a directory it skips and recurses the files inside it instead, the array is then passed into a histogram which is the final output
+
+[Code for task 5](task5/main.c)
+
 # Task 7
 - This program uses Work-Finish method to mark processes as either finished if the
 requested resources are available or deadlocked if the resources aren’t available and is
