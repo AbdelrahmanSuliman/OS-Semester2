@@ -16,6 +16,7 @@ For some reason the pthread.h library doesn’t work on windows so had to do it 
 linux
 
 [Code for task 2](task2/main.c)
+
 ---
 # Task 3
 - My program reads from a file a sequence of page references and uses an Aging algorithm
@@ -26,6 +27,7 @@ The algorithm ensures that the highest priority pages stay in the allotted fixed
 frames, so if a page was not referenced for a while it will be replaced
 
 [Code for task 3](task3/main.c)
+
 ---
 # Task 7
 - This program uses Work-Finish method to mark processes as either finished if the
