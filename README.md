@@ -56,6 +56,14 @@ frames, so if a page was not referenced for a while it will be replaced
 ## Output:
 ![image](https://github.com/user-attachments/assets/dbbf5af8-d1d9-4a11-ab0a-5d753d901bae)
 
+---
+# Task 6
+- My program reads the inputted file path in the command line argument and opens the directory and using a while loop prints its content, each on a new line
+
+[Code for task 6](task6/main.c)
+
+## Output:
+![image](https://github.com/user-attachments/assets/3c171d61-04b7-45c8-81cc-2bfc1c20d3ba)
 
 # Task 7
 - This program uses Work-Finish method to mark processes as either finished if the
