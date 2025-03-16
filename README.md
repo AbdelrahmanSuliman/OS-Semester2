@@ -6,6 +6,17 @@ background, and execute scripts from a file.
 
 [Code for task 1](task1/main.c)
 
+## Output:
+![image](https://github.com/user-attachments/assets/88282256-4396-4af0-b790-8ee1745db7cc)
+![image](https://github.com/user-attachments/assets/5f217480-ae83-4be6-9dde-f5ee60bff3d8)
+![image](https://github.com/user-attachments/assets/3e7e6f46-4ebe-4e63-b023-fbd6409c3c8d)
+![image](https://github.com/user-attachments/assets/8e95bcb3-f83f-40db-b41a-2bfcb3c73487)
+![image](https://github.com/user-attachments/assets/175988f9-d613-4d16-a1e6-cab136dec404)
+![image](https://github.com/user-attachments/assets/228a9d0c-f48a-48e0-801b-775dd060f4c8)
+![image](https://github.com/user-attachments/assets/4779ba30-5a8a-4877-96b3-4dee2473c51d)
+![image](https://github.com/user-attachments/assets/834c7867-1d4d-49db-bd13-2a4731ceebad)
+![image](https://github.com/user-attachments/assets/067abba4-274d-4c51-82ce-384ca6ad87b4)
+
 ---
 # Task 2
 - This program assigns structs to each thread storing information like the frequency of words
@@ -16,6 +27,10 @@ For some reason the pthread.h library doesn’t work on windows so had to do it 
 linux
 
 [Code for task 2](task2/main.c)
+
+## Output:
+![image](https://github.com/user-attachments/assets/dc0d401b-3849-4ea1-836f-87a541d1276d)
+![image](https://github.com/user-attachments/assets/f2bd0d42-c5df-433e-a3a1-3ef99f4a3cd8)
 
 ---
 # Task 3
@@ -28,7 +43,20 @@ frames, so if a page was not referenced for a while it will be replaced
 
 [Code for task 3](task3/main.c)
 
+## Ouput:
+![image](https://github.com/user-attachments/assets/09d31ef4-ba4b-4d21-81e7-ffbce7b30660)
+
+
 ---
+# Task 5
+ - My program first takes the command line arguments (file path and bin size) and recursively goes down the file path, checking first if it’s a file which it then accesses its metadata and adds the size to an array or if it’s a directory it skips and recurses the files inside it instead, the array is then passed into a histogram which is the final output
+
+[Code for task 5](task5/main.c)
+
+## Output:
+![image](https://github.com/user-attachments/assets/dbbf5af8-d1d9-4a11-ab0a-5d753d901bae)
+
+
 # Task 7
 - This program uses Work-Finish method to mark processes as either finished if the
 requested resources are available or deadlocked if the resources aren’t available and is
@@ -36,5 +64,9 @@ dissimilar to the bankers algorithm in the fact that its merely detecting a dead
 preventing it
 
 [Code for task 7](task7/main.c)
+
+## Ouput:
+![image](https://github.com/user-attachments/assets/137d5657-ddb5-43f5-a474-dfb79f6f98b3)
+
 
 ---
