@@ -78,3 +78,12 @@ preventing it
 
 
 ---
+# Task 10
+- My program generates 10 password and applies DES algorithm to each password with a unique salt and prints the results, it also demonstrates the password verification by encrypting a password with a random salt and verifies it again both the correct and incorrect inputs to confirm the encyprytions robustness
+
+[Code for task 7](task10/main.c)
+
+## Ouput:
+![image](https://github.com/user-attachments/assets/238c8b7b-86d8-4c9c-bda8-6e08a34304e3)
+
+)
